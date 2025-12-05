@@ -1,4 +1,4 @@
-# Advanced-Forecasting-Techniques-Project
+# Advanced-Forecasting-Techniques-Project / Retail Demand Prediction
 ## **Introduction**
 Accurate demand forecasting is essential for retail businesses, as it supports effective inventory planning, reduces waste, and prevents stock shortages. Weekly sales are influenced by multiple factors, including seasonal trends, holiday events, and broader economic conditions, making reliable forecasting methods crucial for operational decision-making.
 
