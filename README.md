@@ -1,13 +1,11 @@
 # Advanced-Forecasting-Techniques-Project
-Our project focuses on helping the retail businesses improve inventory planning to increase sales and reduce waste by forecasting future customer demand. We analyze the past demand patterns to predict for the upcoming weeks and months. We need to understand the seasonal trends, holiday effects, and consumer behavior over time so businesses can make smarter decisions. The questions we want to answer: when to increase for peak demand periods; how promotion or seasonal events influence demand; how far ahead accurate planning is possible. How external factors influence sales, such as the unemployment rate, fuel prices, and whether CPI corresponds with sales. The data contains these columns: Store: A unique identifier for each retail store.
-Date: Represents the week of sales, indicating the specific weekly period for the recorded data.
-Weekly_Sales: The total sales for the given store during that particular week.
-Holiday_Flag: A binary indicator showing whether the week in question was a holiday week (1 for holiday, 0 for non-holiday).
-Temperature: The recorded temperature on the day the sales data was collected.
-Fuel_Price: The cost of fuel in the region corresponding to the store during the sales week.
-CPI: Stands for Consumer Price Index, providing an economic indicator for the period.
-Unemployment: The unemployment rate in the region during the sales week. 
-We will implement three model categories: baseline models, classical time-series models, and advanced models. The models will be evaluated using a train-test split and multiple accuracy metrics. Results will be analyzed not only for accuracy but also for practical business insights. 
+## **Introduction**
+Accurate demand forecasting is essential for retail businesses, as it supports effective inventory planning, reduces waste, and prevents stock shortages. Weekly sales are influenced by multiple factors, including seasonal trends, holiday events, and broader economic conditions, making reliable forecasting methods crucial for operational decision-making.
+
+This project aims to predict weekly sales across multiple retail stores using historical data and supplementary external variables such as temperature, fuel prices, unemployment rates, and the Consumer Price Index (CPI). The analysis addresses key questions, including when peak demand occurs, how holidays and economic conditions influence sales, and how far ahead retailers can forecast with confidence.
+
+To explore these questions, the study implements baseline models, classical time-series methods, and advanced machine-learning models. Model performance is assessed using a train–test split and multiple accuracy metrics. The overall objective is to identify effective forecasting approaches while providing insights that can enhance real-world retail inventory management.
+
 ## **1. Data Description**
 ###  **1.1 Dataset Overview**
 The dataset used in this project consists of weekly sales observations from multiple retail stores. Each record reflects a store’s total weekly sales, alongside several contextual variables that may influence consumer demand. The dataset covers a continuous weekly time range beginning in February 2010, with consistent entries across stores. The primary purpose of this dataset is to support the development of forecasting models that can assist retailers in optimising inventory planning and understanding demand fluctuations associated with seasonal, economic, and behavioural factors.
