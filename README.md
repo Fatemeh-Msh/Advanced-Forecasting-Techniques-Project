@@ -48,10 +48,10 @@ Understanding these relationships will support retailers in anticipating demand 
 
 Three categories of forecasting models will be applied:
 
-Baseline models (e.g., naive and seasonal naive benchmarks)
+Baseline models (e.g., Seasonal Naive model)
 
-Classical time-series models (ARIMA, exponential smoothing, Prophet)
+Classical time-series models (e.g., SARIMAX model)
 
-Advanced models (e.g., RNN, LSTM, Transformer-based approaches)
+Advanced models (e.g., LSTM, GRU models)
 
 Models will be evaluated using a train–test split and multiple accuracy metrics. In addition to predictive performance, interpretability and practical business relevance will be considered.
